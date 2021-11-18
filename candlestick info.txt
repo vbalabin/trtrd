@@ -1,0 +1,18 @@
+    [
+        1636995600000,            // Open time
+        "4615.73000000",          // Open
+        "4626.26000000",          // High
+        "4600.11000000",          // Low
+        "4606.01000000",          // Close
+        "9718.64400000",          // Volume
+        1636999199999,            // Close time
+        "44833597.34778100",      // Quote asset volume
+        26821,                    // Number of trades
+        "4851.62870000",          // Taker base asset volume
+        "22383713.19945900",      // Taker buq quote volume
+        "0"                       // Ignore
+    ],
+
+
+https://www.youtube.com/watch?v=GcXgxfbcFrQ
+https://pypi.org/project/mplfinance/
