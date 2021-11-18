@@ -50,7 +50,7 @@ def calculate_n_show():
     df["DEMA_short"] = create_DEMA(df, DEMA_SHORT, "Close")
     df["DEMA_long"] = create_DEMA(df, DEMA_LONG, "Close")
 
-    col_list = ["DEMA_short", "DEMA_long", "Close"]
+    col_list = ["DEMA_long", "DEMA_short", "Close"]
     df[col_list].plot(figsize=(12.2, 6.4))
     plt.title("Close price")
     plt.ylabel("y label")
@@ -58,6 +58,5 @@ def calculate_n_show():
     plt.show()
 
 if __name__ == '__main__':
-    download()
+    #download()
     calculate_n_show()
-    
